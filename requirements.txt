@@ -1,0 +1,14 @@
+ipykernel
+ipython
+ipywidgets
+pandas
+pyarrow
+seaborn
+spacy
+scikit-learn
+presidio-anonymizer
+presidio-analyzer
+presidio-evaluator
+faker
+nameparser
+names_dataset
