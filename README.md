@@ -7,7 +7,7 @@ This repository contains several code artifacts that describe the most important
 
 Code artifacts are presented in three iPython notebooks and two Python scripts.
 
-- `src/data_cleaing.ipynb` - This notebook describes the process of cleaning the original dataset. It includes processes for removing near-duplicate documents. It also demonstrates a method for removing documents that were likely to be corrupted using anomaly detection based on character distributions.
+- `src/data_cleaning.ipynb` - This notebook describes the process of cleaning the original dataset. It includes processes for removing near-duplicate documents. It also demonstrates a method for removing documents that were likely to be corrupted using anomaly detection based on character distributions.
 - `src/manual_obfuscate.ipynb` - This notebook describes the process of manually obfuscating PII labeled as "Other". It includes an iPython widget for viewing labeled text and manually typing out an alternative (non-identifying) surrogate.
 - `src/obfuscate.py` - This Python script uses different methods to generate plausible surrogates for each type of PII (except the "Other" type). Several methods rely on `Faker`, and all methods are orchestrated using `Presidio`.
 - `src/obfuscate.ipynb` - This notebook runs the `obfuscate.py` script and exports the data into several formats.
@@ -15,7 +15,7 @@ Code artifacts are presented in three iPython notebooks and two Python scripts.
 
 ## Data
 
-The data can be downloaded from Kaggle: [CRAPII](https://www.kaggle.com/competitions/pii-detection-removal-from-educational-data/data).
+The data can be downloaded from Kaggle: [CRAPII](https://www.kaggle.com/datasets/langdonholmes/cleaned-repository-of-annotated-pii).
 
 Additional details about the data format are available on the Kaggle website.
 
